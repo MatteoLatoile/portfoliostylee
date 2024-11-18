@@ -21,7 +21,7 @@ body{
     font-family: sans-serif;
 }
 .alignItem{
-    align-content: center;
+    align-items: center;
 }
 .spaceBetween{
     justify-content: space-between;
@@ -90,7 +90,7 @@ nav{
 /*Hero*/
 
 h1{
-margin-top: 300px;
+margin-top: 250px;
 color: #fff;
 margin-bottom: 1rem;
 font-weight: 700;
@@ -117,6 +117,10 @@ z-index: 200;
     height: 150px;
     z-index: -1;
     
+}
+.colorWhite{
+    color: white;
+    margin-right: 6px;
 }
 .blur2{
     position: absolute;

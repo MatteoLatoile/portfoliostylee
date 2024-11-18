@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -17,21 +17,38 @@
         <img src="assets/logo.png" alt="" class="logo">
         <nav class="navWidth ">
             <ul class="flex spaceBetween">
-                <li><a href="#top" class="link">Accueil</a></li>
-                <li><a href="#apropos" class="link">à propos</a></li>
-                <li><a href="" class="link">Projets</a></li>
-                <li><a href="" class="link">Télécharger CV</a></li>
+                <div class="flex alignItem">
+                    <i class="fa-solid fa-door-open colorWhite"></i>
+                    <li><a href="#top" class="link">Accueil</a></li>
+                </div>
+                <div class="flex alignItem">
+                    <i class="fa-solid fa-address-card colorWhite"></i>
+                    <li><a href="#apropos" class="link">à propos</a></li>
+                </div>
+                <div class="flex alignItem ">
+                    <i class="fa-solid fa-star colorWhite"></i>
+                    <li><a href="" class="link">Projets</a></li>
+                </div>
+                <div class="flex alignItem colorWhite">
+                    <i class="fa-solid fa-download colorWhite"></i>
+                    <li><a href="" class="link">Télécharger CV</a></li>
+                </div>
             </ul>
         </nav>
-        <a href="#contact" class="link">Contact</a>
+        <div class="flex alignItem">
+           
+            <a href="#contact" class="link">Contact</a>
+        </div>
     </header>
     <!-- Hero -->
     <section class="container">
         <div class="flex spaceBetween">
             <div class="relative">
-                <h1>Hey! Moi c'est <span class="matteo">Mattéo</span>, <br>je suis web designer</h1>
+                <h1 data-aos="fade-right" data-aos-duration="2250">Hey! Moi c'est <span class="matteo">Mattéo</span>,
+                    <br>je suis web designer <br>cherchant un stage.
+                </h1>
                 <!-- <a href="#projet" class="btn">Voir mes projets</a> -->
-                <a href="#projet" class="Btn-Container ">
+                <a href="#projet" class="Btn-Container " data-aos="flip-up" data-aos-delay="1000">
                     <span class="text">Voir les projets</span>
                     <span class="icon-Container">
                         <svg width="16" height="19" viewBox="0 0 16 19" fill="nones" xmlns="http://www.w3.org/2000/svg">
@@ -81,31 +98,31 @@
     <section id="apropos" class="container scrollTop">
         <h3 class="marginToppropos">A <span class="matteo">PROPOS</span></h3>
         <div class="flex spaceBetween alignItem">
-                <p data-aos="fade-right" data-aos-duration="2250" data-aos-delay="300" class="width45 paragraphe">Hey jeune entrepreneur! Je m'appelle Mattéo, j'ai actuellement 20 ans et
-                    je
-                    suis jeune développeur depuis maintenant quelques mois. Je suis diplômé d'une formation qui
-                    s'appelle
-                    "La Toile" financée par EMLyon Business School. Si aujourd'hui je propose mes services, c'est pour
-                    avoir
-                    l'opportunité de créer un site fiable et à ton image !
-                </p>
-                <img src="assets/moi_meme.png" alt="photo dans la partie a propos" class="width45 imgpropos">
-            
+            <p data-aos="fade-right" data-aos-duration="2250" data-aos-delay="300" class="width45 paragraphe">Hey jeune
+                entrepreneur! Je m'appelle Mattéo, j'ai actuellement 20 ans et
+                je
+                suis jeune développeur depuis maintenant quelques mois. Je suis diplômé d'une formation qui
+                s'appelle
+                "La Toile" financée par EMLyon Business School. Si aujourd'hui je propose mes services, c'est pour
+                avoir
+                l'opportunité de créer un site fiable et à ton image !
+            </p>
+            <img src="assets/moi_meme.png" alt="photo dans la partie a propos" class="width45 imgpropos">
+
         </div>
     </section>
     <!-- contact -->
     <section id="contact" class="container scrollTop">
         <h3>ME <span class="matteo">CONTACTER</span></h3>
         <div class="flex spaceCard">
-            <a href="" target="_blank" class="logoContact" data-aos="flip-up"
-             data-aos-delay="300"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="" target="_blank" class="logoContact" data-aos="flip-up"
-            data-aos-delay="400"><i class="fa-brands fa-github"></i></a>
-            <a href="" target="_blank" class="logoContact" data-aos="flip-up"
-            data-aos-delay="500"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="" target="_blank" class="logoContact" data-aos="flip-up" data-aos-delay="300"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="" target="_blank" class="logoContact" data-aos="flip-up" data-aos-delay="400"><i
+                    class="fa-brands fa-github"></i></a>
+            <a href="" target="_blank" class="logoContact" data-aos="flip-up" data-aos-delay="500"><i
+                    class="fa-brands fa-square-whatsapp"></i></a>
             <a href="mailto:matteo.padalinoba@gmail.com" target="_blank" class="logoContact" data-aos="flip-up"
-            data-aos-delay="600"><i
-                    class="fa-solid fa-envelope"></i></a>
+                data-aos-delay="600"><i class="fa-solid fa-envelope"></i></a>
         </div>
     </section>
     <!-- footer -->
@@ -116,7 +133,7 @@
     </footer>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>
