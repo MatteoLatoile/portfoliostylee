@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.width100{
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+}
+.alignItem{
+    align-content: center;
+}
+.spaceBetween{
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width:1000px;
+	margin: auto;
+	width : 100%;
+}
+body{
+    background-color: #18181B;
+}
+.btn{
+    padding: 10px 10px;
+    background-color: #001dad;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.link{
+    padding-bottom: 0.75rem;
+    color: white;
+}
+/*navigation*/
+header{
+    background: #18181B;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+header img{
+    width: 10%;
+}
+header a{
+    font-weight: bold;
+}
+header a:hover{
+    color: #243bafbd;
+    transition: 0.8s;
+
+}
+nav{
+    max-width: 1200px;
+}
+.paddingHeader{
+    padding: 2rem 1rem;
+}
+.navWidth{
+    width: 30%;
+}
+/*Hero*/
+
+h1{
+margin-top: 300px;
+color: #fff;
+margin-bottom: 1rem;
+font-weight: 700;
+width: 100%;
+font-size: 40px;
+z-index: 100;
+}
+.imgHero{
+    width: 70%;
+    margin-top: 15rem;
+}
+.matteo{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+.blur{
+    position: absolute;
+    box-shadow: 0 0 1000px 50px #1d4ed8;
+    
+}
+/*projet*/
+.marginProjet{
+    margin-top: 300px;
+}
+h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+}
+.imgProjet{
+    width: 35%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.btnProjet{
+    background-color: #001dad;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 300;
+    width: 19%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btnProjet:hover{
+    background-color: #204ece7a;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 300;
+    transition: 0.5s;
+
+}
+.card{
+	width: 300px;
+	box-shadow: 4px 4px 12px #00000025;
+	border-radius: 30px 30px;
+	padding: 8px;
+    margin-top: 15px;
+}
+.card img {
+	display: block;
+	width: 100%
+ 
+}
+.card p{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+.column{
+    flex-direction: column;
+    
+}
+.spaceCard{
+    justify-content: space-evenly;
+}
+/*a propos*/
+.marginToppropos{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.width45{
+    width: 45%;
+}
+.imgpropos{
+    margin-top: -100px;
+    width: 40%;
+}
+.paragraphe{
+    color: #fff;
+    line-height: 2rem;
+}
+/*me contacter*/
+.logoWidth{
+    width: 20%;
+    margin-top: 50px;
+}
+/*footer*/
+.mentionLegal{
+    display: flex;
+}
+.bgFooter{
+    background-color: black;
+}
+
