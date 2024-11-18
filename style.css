@@ -9,6 +9,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .width100{
     width: 100%;
 }
@@ -84,7 +85,7 @@ nav{
     padding: 2rem 1rem;
 }
 .navWidth{
-    width: 30%;
+    width: 45%;
 }
 /*Hero*/
 
@@ -117,6 +118,29 @@ z-index: 200;
     z-index: -1;
     
 }
+.blur2{
+    position: absolute;
+    background-color: #ffffff92;
+    filter: blur(64px);
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 300px;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
+}
+.blur3{
+    position: absolute;
+    background-color: #ff000092;
+    filter: blur(64px);
+    /*box-shadow: 0 0 1000px 45px ;*/
+    left: 400px;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: -2;
+}
+
 /* From Uiverse.io by vinodjangid07 */ 
 .Btn-Container {
     display: flex;
@@ -265,5 +289,6 @@ h3{
 }
 .bgFooter{
     background-color: black;
+    margin-top: 40px;
 }
 
