@@ -42,7 +42,7 @@ body{
     
 }
 .scrollTop{
-    scroll-margin-top: 150px;
+    scroll-margin-top: 140px;
 }
 .btn{
     padding: 10px 10px;
@@ -270,6 +270,9 @@ h3{
     line-height: 2rem;
 }
 /*me contacter*/
+.marginTitle{
+    margin-top: 100px;
+}
 .logoWidth{
     width: 20%;
     margin-top: 50px;
