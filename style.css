@@ -293,6 +293,8 @@ h3{
     color: #fff;
     display: inline-block;
     text-align: center;
+    padding: 10px 10px;
+    margin-left: 550px;
 }
 .bgFooter{
     background-color: black;
