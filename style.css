@@ -106,6 +106,9 @@ z-index: 200;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
+.opacity{
+    opacity: 30%;
+}
 .blur{
     position: absolute;
     background-color: #1d4fd892;
@@ -300,4 +303,5 @@ h3{
     background-color: black;
     margin-top: 40px;
 }
+
 
