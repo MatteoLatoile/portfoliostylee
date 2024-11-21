@@ -272,9 +272,22 @@ h3{
     color: #fff;
     line-height: 2.5rem;
 }
+/*skills*/
+.paraSkill{
+    color: #fff;
+    background-color: #28282e;
+    padding: 10px 15px;
+    border-radius: 30px;
+    display: inline-block;
+    
+
+}
+.marginSkills{
+    margin-top: 30px;
+}
 /*me contacter*/
 .marginTitle{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .logoWidth{
     width: 20%;
@@ -290,6 +303,9 @@ h3{
     margin-top: 20px;
     font-size: 50px;
     transition: 0.7s;
+}
+.spaceBetweenmoyen{
+    justify-content: space-evenly;
 }
 /*footer*/
 .mentionLegal{
