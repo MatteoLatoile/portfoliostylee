@@ -333,4 +333,21 @@ h3{
     margin-top: 40px;
 }
 
+/*responsive*/
+@media all and (max-width: 800px){
+  .hideForSmall{
+    display: none;
+  }
+  .large100{
+    width: 100%;
+  }
+  .alignTextMedium{
+    text-align: center;
+    margin-left: 70px;
+  }
+  .container{
+    padding: 10px;
+  }
+}
+
 
