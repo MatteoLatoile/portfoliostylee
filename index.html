@@ -14,7 +14,7 @@
 
 <body>
     <!-- souris pointer -->
-     <section>
+    <section>
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
@@ -35,7 +35,7 @@
         <div class="circle"></div>
         <div class="circle"></div>
         <div class="circle"></div>
-     </section>
+    </section>
     <!-- Navigation -->
     <header class="flex alignItem spaceBetween bgColorRed paddingHeader">
         <img src="assets/logoamoi.png" alt="" class="logo">
@@ -59,10 +59,19 @@
                 </div>
             </ul>
         </nav>
-        <div class="flex alignItem">
+        <div class="flex alignItem hideForSmall">
 
-            <a href="#contact" class="link hideForSmall">Contact</a>
+            <a href="#contact" class="link ">Contact</a>
         </div>
+        <label class="hamburger appearForSmall displayNone">
+            <input type="checkbox">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom"
+                    d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                </path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>
     </header>
     <!-- Hero -->
     <section class="container">
@@ -91,9 +100,9 @@
                     </span>
                 </a>
 
-                <div class="blur"></div>
-                <div class="blur2"></div>
-                <div class="blur3"></div>
+                <div class="blur hideForSmall"></div>
+                <div class="blur2 hideForSmall"></div>
+                <div class="blur3 hideForSmall"></div>
             </div>
             <!-- Image en png sur le hero -->
             <div>
@@ -105,17 +114,20 @@
     <section id="projet" class="container marginProjet flex spaceCard scrollTop">
         <h3 class="width100">MES <span class="matteo">PROJETS</span></h3>
         <div data-aos="flip-left" data-aos-duration="1800" class="card">
-            <a href="https://matteolatoile.github.io/escapegame/" target="_blank"><img src="assets/cover_dehors.jpg" alt=""></a>
+            <a href="https://matteolatoile.github.io/escapegame/" target="_blank"><img src="assets/cover_dehors.jpg"
+                    alt=""></a>
             <h3>Dehors !</h3>
             <p>Site pour un Escape Game codé en HTML/CSS/JS</p>
         </div>
         <div id="projetImage" data-aos="flip-right" data-aos-duration="1800" class="card">
-            <a href="https://matteolatoile.github.io/chateau_de_la_loire/" target="_blank"><img src="assets/chateau.PNG" alt=""></a>
+            <a href="https://matteolatoile.github.io/chateau_de_la_loire/" target="_blank"><img src="assets/chateau.PNG"
+                    alt=""></a>
             <h3>Le château</h3>
             <p>Site de tourisme codé en HTML/CSS</p>
         </div>
         <div data-aos="flip-left" data-aos-duration="1800" class="card">
-            <a href="https://matteolatoile.github.io/Laruche2/" target="_blank"><img src="assets/abeille.PNG" alt=""></a>
+            <a href="https://matteolatoile.github.io/Laruche2/" target="_blank"><img src="assets/abeille.PNG"
+                    alt=""></a>
             <h3>La ruche</h3>
             <p>Site de e-commerce codé en HTML/CSS</p>
         </div>
@@ -125,7 +137,8 @@
     <section id="apropos" class="container scrollTop">
         <h3 class="marginToppropos">À <span class="matteo">PROPOS</span></h3>
         <div class="flex spaceBetween alignItem">
-            <p data-aos="fade-right" data-aos-duration="2250" data-aos-delay="300" class="width45 large100 paragraphe">Hey jeune
+            <p data-aos="fade-right" data-aos-duration="2250" data-aos-delay="300" class="width45 large100 paragraphe">
+                Hey jeune
                 entrepreneur! Je m'appelle Mattéo, j'ai actuellement 20 ans et
                 je
                 suis jeune développeur depuis maintenant quelques mois. Je suis diplômé d'une formation qui
@@ -174,14 +187,14 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="bgFooter">
+    <footer class="bgFooter hideForSmall">
         <a href="" class="mentionLegal">
             <p>Mentions légales</p>
         </a>
     </footer>
     <script>
-            AOS.init();
-        
+        AOS.init();
+
     </script>
     <script src="app.js" defer></script>
 </body>
