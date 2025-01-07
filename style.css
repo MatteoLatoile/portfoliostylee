@@ -72,7 +72,7 @@ body{
   }
 /*navigation*/
 header{
-    backdrop-filter: blur(5px);
+    background-color: #18181B;
     position: fixed;
     width: 100%;
     top: 0;
