@@ -267,24 +267,8 @@ h3{
     margin-top: 50px;
     border-radius: 30px;
 }
-.btnProjet{
-    background-color: #001dad;
-    padding: 10px 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: 300;
-    width: 19%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.btnProjet:hover{
-    background-color: #204ece7a;
-    padding: 10px 10px;
-    border-radius: 10px;
-    color: #fff;
-    font-weight: 300;
-    transition: 0.5s;
-
+.imgProjet:hover{
+    transform: scale(2);
 }
 .card{
 	width: 300px;
@@ -298,10 +282,18 @@ h3{
     border-radius: 30px;
  
 }
+.card img :hover{
+    transform: scale(1.02);
+    object-fit: cover;
+    transition: 0.3s;
+}
 .card p{
     color: #fff;
     margin-bottom: 20px;
 
+}
+#logo{
+ display: none !important;
 }
 .column{
     flex-direction: column;
