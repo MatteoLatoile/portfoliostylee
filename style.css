@@ -293,7 +293,7 @@ h3{
 
 }
 #logo{
- display: none !important;
+ opacity: 0%;
 }
 .column{
     flex-direction: column;
