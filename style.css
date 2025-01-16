@@ -103,6 +103,9 @@ nav{
 .navWidth{
     width: 45%;
 }
+.vr100{
+    height: 100vr;
+}
 /* From Uiverse.io by JulanDeAlb */ 
 .hamburger {
     cursor: pointer;
@@ -170,7 +173,7 @@ z-index: 200;
     filter: blur(64px);
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 150px;
-    top: 50%;
+    top: 900px;
     width: 150px;
     height: 150px;
     z-index: -1;
@@ -186,7 +189,7 @@ z-index: 200;
     filter: blur(64px);
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 300px;
-    top: 50%;
+    top: 900px;
     width: 150px;
     height: 150px;
     z-index: -1;
@@ -197,7 +200,7 @@ z-index: 200;
     filter: blur(64px);
     /*box-shadow: 0 0 1000px 45px ;*/
     left: 400px;
-    top: 50%;
+    top: 900px;
     width: 150px;
     height: 150px;
     z-index: -2;
