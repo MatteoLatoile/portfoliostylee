@@ -5,6 +5,8 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -17,9 +19,7 @@ html{
     scroll-behavior: smooth;
     
 }
-body{
-    font-family: sans-serif;
-}
+
 .alignItem{
     align-items: center;
 }
@@ -38,8 +38,8 @@ li{
 	width : 100%;
 }
 body{
-    background-color: #18181B;
-    
+    background-color: var(--primary-color);
+    font-family: sans-serif;
 }
 .scrollTop{
     scroll-margin-top: 140px;
@@ -55,24 +55,29 @@ body{
 }
 .link{
     padding-bottom: 0.75rem;
-    color: white;
+    color: var(--secondary-color);
 }
-.circle {
-    height: 70px;
-    width: 70px;
-    border-radius: 24px;
-    background-color: black;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: -1; /* so that it stays on top of all other elements */
-    filter: blur(90px);
-    opacity: 14%;
-  }
 /*navigation*/
+#icon {
+    color: var(--secondary-color);
+    font-size: 18px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+:root{
+    --primary-color: #18181b;
+    --secondary-color: #fff; 
+    
+}
+
+.darkMode{
+    --primary-color: #fff;
+    --secondary-color: #18181b; 
+}
+
 header{
-    background-color: #18181B;
+    background-color: var(--primary-color);
     position: fixed;
     width: 100%;
     top: 0;
@@ -149,7 +154,7 @@ nav{
 
 h1{
 margin-top: 250px;
-color: #fff;
+color: var(--secondary-color);
 margin-bottom: 1rem;
 font-weight: 700;
 width: 100%;
@@ -162,7 +167,7 @@ z-index: 200;
 }
 .matteo{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px var(--secondary-color);
 }
 .opacity{
     opacity: 30%;
@@ -180,7 +185,7 @@ z-index: 200;
     
 }
 .colorWhite{
-    color: white;
+    color: var(--secondary-color);
     margin-right: 6px;
 }
 .blur2{
@@ -261,7 +266,7 @@ z-index: 200;
     margin-top: 300px;
 }
 h3{
-    color: #fff;
+    color: var(--secondary-color);
     font-weight: 700;
     font-size: 30px;
 }
@@ -291,7 +296,7 @@ h3{
     transition: 0.3s;
 }
 .card p{
-    color: #fff;
+    color: var(--secondary-color);
     margin-bottom: 20px;
 
 }
@@ -319,7 +324,7 @@ h3{
     width: 40%;
 }
 .paragraphe{
-    color: #fff;
+    color: var(--secondary-color);
     line-height: 2.5rem;
 }
 /*skills*/
@@ -344,7 +349,7 @@ h3{
     margin-top: 50px;
 }
 .logoContact{
-    color: #fff;
+    color: var(--secondary-color);
     margin-top: 20px;
     font-size: 50px;
     text-align: center;
