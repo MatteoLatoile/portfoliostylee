@@ -1,10 +1,13 @@
-let icon = document.querySelector("#icon");
+let soleil = document.querySelector("#iconSoleil");
+let lune = document.querySelector("#iconLune")
 
-icon.onclick = function(){
-  document.body.classList.toggle("darkMode");
-  if(document.body.classList.contains("darkMode")){
-    icon.src = ".fa-solid fa-moon";
-  }else{
-    icon.src = ".fa-solid fa-sun";
-  }
+soleil.onclick = function(){
+  document.body.classList.add("lightMode");
+  soleil.hide;
+  lune.classList.add('active2');
+}
+lune.onclick = function(){
+  document.body.classList.remove("lightMode");
+  soleil.classList.add('active1');
+  lune.classList.remove('active2');
 }
