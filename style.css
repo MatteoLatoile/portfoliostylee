@@ -58,34 +58,52 @@ body{
     color: var(--secondary-color);
 }
 /*navigation*/
-#iconSoleil {
-    color: var(--secondary-color);
-    font-size: 18px;
-    margin-right: 30px;
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
     cursor: pointer;
-    opacity: 1;
-}
-#iconSoleil.active1 {
-    color: var(--secondary-color);
-    font-size: 18px;
-    margin-right: 30px;
-    cursor: pointer;
-    opacity: 1;
-}
-#iconLune{
-    color: var(--secondary-color);
-    font-size: 18px;
-    margin-right: 30px;
-    cursor: pointer; 
-    display: none;
-}
-#iconLune.active2{
-    color: var(--secondary-color);
-    font-size: 18px;
-    margin-right: 30px;
-    cursor: pointer; 
-    display: block;
-}
+    inset: 0;
+    border: 2px solid #414141;
+    border-radius: 50px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    left: 0.2em;
+    bottom: 0.2em;
+    background-color: white;
+    border-radius: inherit;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .switch input:checked + .slider {
+    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+    border: 2px solid #0974f1;
+  }
+  
+  .switch input:checked + .slider:before {
+    transform: translateX(1.5em);
+  }
+
 
 :root{
     --primary-color: #18181b;
@@ -104,7 +122,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 999;
     width: 100%;
 }
 header img{
@@ -421,13 +439,38 @@ h3{
     margin-top: 14px;
   }
   h1{
-    font-size: 26px;
+    font-size: 30px;
+    text-align: center;
+
   }
   .appearForSmall{
     display: flex;
   }
   header img{
     width: 48px;
+  }
+  .divBurger{
+    background-color: #18181b;
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    position: fixed;
+    top: -300px;
+    left: 0px;
+    z-index: -1;
+    border-bottom: 1px solid #f1f1f1;
+    transition: 0.3s;
+  }
+  .divBurger.activeVolet{
+    top: 60px;
+  }
+  .divBurger a{
+    color: #fff;
+    padding: 20px;
+    display: block;
+  }
+  .marginBottomRes{
+    margin-bottom: 100px;
   }
 }
 

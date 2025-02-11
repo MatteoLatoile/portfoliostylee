@@ -1,13 +1,13 @@
 let soleil = document.querySelector("#iconSoleil");
-let lune = document.querySelector("#iconLune")
+let lune = document.querySelector("#iconLune");
+let btnUiverse = document.querySelector('.switch input');
+let volet = document.querySelector('#volet');
+let hamburger = document.querySelector('.hamburger input');
 
-soleil.onclick = function(){
-  document.body.classList.add("lightMode");
-  soleil.hide;
-  lune.classList.add('active2');
+btnUiverse.onclick = function(){
+  document.body.classList.toggle("lightMode");
 }
-lune.onclick = function(){
-  document.body.classList.remove("lightMode");
-  soleil.classList.add('active1');
-  lune.classList.remove('active2');
+
+hamburger.onclick = function openVolet(){
+  volet.classList.toggle('activeVolet')
 }

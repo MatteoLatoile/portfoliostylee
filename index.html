@@ -55,14 +55,18 @@
                 </div>
                 <div class="flex alignItem colorWhite hideForSmall">
                     <i class="fa-solid fa-download colorWhite"></i>
-                    <li><a href="assets/cv web developpeur.pdf" class="link" target="_blank">Télécharger CV</a></li>
+                    <li><a href="assets/cv mattéo padalino .pdf" class="link" target="_blank">Télécharger CV</a></li>
                 </div>
             </ul>
         </nav>
         <div class="flex alignItem hideForSmall">
 
-            <i id="iconSoleil" class="fa-solid fa-sun"></i>
-            <i id="iconLune" class="fa-solid fa-moon"></i>
+
+            <label id="btnUiverse" class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+            
         </div>
         <label class="hamburger appearForSmall displayNone">
             <input type="checkbox">
@@ -73,6 +77,20 @@
                 <path class="line" d="M7 16 27 16"></path>
             </svg>
         </label>
+        <!-- burger -->
+         <div id="volet" class="divBurger appearForSmall displayNone">
+            <ul>
+                <a href="">
+                    <li>à propos</li>
+                </a>
+                <a href="">
+                    <li>skills</li>
+                </a>
+                <a href="">
+                    <li>télécharger CV</li>
+                </a>
+            </ul>
+         </div>
     </header>
     <!-- Hero -->
     <section class="container">
@@ -200,7 +218,7 @@
     <!-- contact -->
     <section id="contact" class="container scrollTop">
         <h3 class="marginTitle">ME <span class="matteo">CONTACTER</span></h3>
-        <div class="flex spaceCard">
+        <div class="flex spaceCard marginBottomRes">
             <a href="www.linkedin.com/in/matteo-padalino-6510ba33a" target="_blank" class="logoContact large50"
                 data-aos="flip-up" data-aos-delay="300"><i class="fa-brands fa-linkedin "></i></a>
             <a href="https://github.com/MatteoLatoile" target="_blank" class="logoContact large50" data-aos="flip-up"
@@ -222,7 +240,7 @@
         AOS.init();
 
     </script>
-    
+
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.59/build/spline-viewer.js"></script>
 </body>
 
